@@ -1,4 +1,7 @@
 (defun jokes(n)
   (print (* n 2)))
 
-(jokes 3)
+(defun main()
+  (jokes 3))
+
+(main)

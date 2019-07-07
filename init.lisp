@@ -1,7 +1,6 @@
-(defun jokes(n)
-  (print (* n 2)))
+(defun factorial(n)
+  (if (zerop n)
+      1
+      (* n (factorial (- n 1)))))
 
-(defun main()
-  (jokes 3))
-
-(main)
+(print (factorial 5))
